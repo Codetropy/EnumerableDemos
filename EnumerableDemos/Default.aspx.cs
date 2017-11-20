@@ -27,8 +27,10 @@ namespace EnumerableDemos
                 Response.Write("Name: " + cust.Name + "<br> " + "City: " + cust.City + " <br> "
                                + "Mobile " + cust.Mobile + "<br> " + "Amount :" + cust.Amount.ToString("c") + "<br>" + "-----" + "<br>");
             }
+
+            // List of Employees sample
             List<Employee> employees = new List<Employee>();
-            Employee emp1 = new Employee { Name = "Jason", Skills = new List<string> { "C", "C++", "Java" } };
+            Employee emp1 = new Employee { Name = "Jason", Skills = new List<string> { "C#", "C++", "Javascript", "Swift", "Knockout", "Angular", "Node" } };
             Employee emp2 = new Employee { Name = "Bill", Skills = new List<string> { "SQL Server", "C#", "ASP.NET" } };
 
             Employee emp3 = new Employee { Name = "George", Skills = new List<string> { "C#", "ASP.NET MVC", "Windows Azure", "SQL Server" } };

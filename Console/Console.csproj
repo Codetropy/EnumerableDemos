@@ -52,6 +52,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{5520ff05-3c19-4d3e-b9cb-e9f7d45d9ef9}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EnumerableDemos\EnumerableDemos.csproj">
       <Project>{b6db624f-9d03-483c-990e-1eee04594415}</Project>
       <Name>EnumerableDemos</Name>
